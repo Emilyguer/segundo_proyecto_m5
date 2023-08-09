@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Galeria</title>
+    <title>Railsplantillas</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
+    <!-- CDN fontawesome -->
+    <script src="https://kit.fontawesome.com/9bd0c45d08.js" crossorigin="anonymous"></script>
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
+  <body class="is-preload-0 is-preload-1 is-preload-2">
+
+  <!-- Main -->
+  <div id="main">
+
+  <!-- Header -->
+  <%= render "shared/header" %>
+
+  <!-- Thumbnail-->
     <%= yield %>
+
+    <!-- Footer-->
+    <%= render "shared/footer" %>
+
+    <!-- Scripts -->
+    <%= javascript_include_tag 'jquery.min' %>
+    <%= javascript_include_tag 'browser.min' %>
+    <%= javascript_include_tag 'breakpoints.min'%>
+    <%= javascript_include_tag 'main' %>
+
+			</div>
   </body>
 </html>
