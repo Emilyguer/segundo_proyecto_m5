@@ -1,24 +1,95 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Título del Proyecto
+Acelerar la construcción de un proyecto en rails 
 
-Things you may want to cover:
+Descripción
+El propósito de este proyecto es construir una galería de imágenes atractiva y dinámica. La plantilla proporcionada incluye todos los estilos visuales necesarios, por lo que el enfoque se centra en la integración adecuada de la plantilla en una aplicación Ruby On Rails. Además de la galería en sí, se requiere agregar una vista adicional que proporcione un resumen sobre el propósito y la funcionalidad de la galería.
 
-* Ruby version
+Insignias
+Insignias que muestran metadatos como el estado de la compilación, la cobertura de las pruebas, el estado de las dependencias, etc.
 
-* System dependencies
+Visuales
+Capturas de pantalla, videos o GIFs que demuestran lo que hace el proyecto y cómo usarlo.
 
-* Configuration
+Empezando 🚀
+Estas instrucciones te guiarán para obtener una copia de este proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
-* Database creation
+Prerrequisitos 📋
+Lista de software y herramientas, incluyendo versiones, que necesitas para instalar y ejecutar este proyecto:
 
-* Database initialization
+Sistema Operativo (por ejemplo, Ubuntu 20.04, Windows 10)
+Lenguaje de programación (Ruby 3.2.2)
+Framework (Rails 7.0.6)
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Instalación 🔧
+Una guía paso a paso sobre cómo configurar el entorno de desarrollo e instalar todas las dependencias.
 
-* Deployment instructions
+# paso 1
+-.Accder al directorio del proyecto
+   rails server
 
-* ...
+# paso 2
+Ejecutando las Pruebas ⚙️
+Instrucciones y ejemplos para ejecutar el conjunto de pruebas.
+
+# proporciona un ejemplo
+Pruebas de Principio a Fin 🔩
+Explica qué cubren estas pruebas, por qué son importantes y cómo interpretar sus resultados.
+
+Pruebas de Estilo de Código ⌨️
+Descripción y ejemplos de las pruebas de estilo que estás utilizando.
+
+# proporciona un ejemplo
+Despliegue 📦
+Instrucciones sobre cómo desplegar esto en un sistema en vivo o ambiente de producción.
+
+Construido Con 🛠️
+Explica qué tecnologías usaste para construir este proyecto. Aquí algunos ejemplos:
+
+Ruby - El lenguaje utilizado
+Ruby on Rails - El framework web utilizado
+Ruby gems - Gestión de dependencias
+
+Contribuyendo 🖇️
+Las contribuciones son lo que hacen a la comunidad de código abierto un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es muy apreciada. Por favor, lee el CONTRIBUTING.md para detalles sobre nuestro código de conducta, y el proceso para enviarnos pull requests.
+
+Wiki 📖
+Puedes encontrar mucho más sobre cómo usar este proyecto en nuestra Wiki
+
+Soporte
+Si tienes algún problema o sugerencia, por favor abre un problema aquí.
+
+Roadmap
+Ideas, mejoras planificadas y actualizaciones futuras
+
+para el proyecto actual.
+
+Versionado 📌
+Usamos Git para el versionado. Para las versiones disponibles, ve las etiquetas en este repositorio.
+
+Autores ✒️
+Emily Guerrero - Trabajo inicial - Emily Guerrero
+Mira también la lista de contribuidores que han participado en este proyecto.
+
+Licencia 📄
+Este proyecto está bajo la Licencia  - ve el archivo LICENSE.md para detalles
+
+Expresiones de Gratitud 🎁
+Estamos agradecidos por las contribuciones de la comunidad a este proyecto. Si encontraste cualquier valor en este proyecto o quieres contribuir, aquí está lo que puedes hacer:
+
+Comparte este proyecto con otros
+Invítanos un café ☕
+Inicia un nuevo problema o contribuye con un PR
+Muestra tu agradecimiento diciendo gracias en un nuevo problema.
+Consejos Adicionales 📝
+Aquí hay algunos consejos extra para aprovechar al máximo tu README:
+
+Mantén cada sección lo más concisa posible. Evita la pelusa innecesaria, ya que puede ser abrumadora para el lector.
+Asegúrate de que tus instrucciones de instalación, pruebas y despliegue sean detalladas y precisas. Si hay pasos adicionales que el lector necesita tomar (como instalar dependencias extra), asegúrate de incluirlos.
+Los visuales (imágenes, GIFs) son muy útiles para transmitir rápidamente lo que hace tu proyecto y cómo usarlo. Si puedes, incluye capturas de pantalla de tu aplicación en acción o GIFs que demuestren su uso.
+El tono amigable y acogedor que usas en tu README es excelente. Ayuda a hacer tu proyecto más acogedor para los colaboradores.
+Recuerda, un buen README es crucial para hacer que tu proyecto sea atractivo y accesible para otros desarrolladores. ¡Buena suerte con tu proyecto!
+
+⌨️ con ❤️ por Emily Guerrero 😊
