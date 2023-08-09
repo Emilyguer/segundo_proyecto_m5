@@ -13,3 +13,13 @@
  *= require_tree .
  *= require_self
  */
+/* Estilos para quitar los puntos de lista */
+ .vistas {
+    list-style: none;
+}
+
+/* Estilos para los enlaces dentro de los elementos de lista */
+.vistas li a {
+    text-decoration: none; /* Opcional: quita la subrayado de los enlaces */
+    color: #000; /* Opcional: cambia el color del texto del enlace */
+}
